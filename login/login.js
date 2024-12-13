@@ -1,9 +1,4 @@
-// Simulate subscription alert
-function subscribe(plan) {
-    alert('You have subscribed to the ' + plan + ' plan!');
-}
-
-// Simulate login process
+// Handle the login process
 function loginUser(event) {
     event.preventDefault();
     
@@ -13,10 +8,10 @@ function loginUser(event) {
     // Simulate a simple login validation
     if (username === "user" && password === "password123") {
         alert("Login successful!");
-        // Store login status in localStorage (simulating session)
+        // Store login status in localStorage
         localStorage.setItem("loggedIn", true);
         localStorage.setItem("username", username);
-        window.location.href = "subscriptions.html"; // Redirect to subscription page
+        window.location.href = "subscriptions.html"; // Redirect to the subscription page
     } else {
         alert("Invalid username or password.");
     }

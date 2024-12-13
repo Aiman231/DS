@@ -1,3 +1,4 @@
+/* Common CSS for all pages */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -10,11 +11,6 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
-}
-
-#intro {
-    text-align: center;
-    margin-top: 50px;
 }
 
 footer {
