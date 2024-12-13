@@ -3,23 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My Study Notes Subscription</title>
-    <link rel="stylesheet" href="common.css">
+    <title>Welcome to Your Study Notes</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Welcome to My Study Notes Subscription</h1>
+        <p>Choose a subscription plan to access the Linear Algebra notes.</p>
     </header>
 
-    <section id="intro">
-        <p>Choose a subscription plan to access the notes.</p>
-        <a href="login/login.html">Login to Access Notes</a>
+    <!-- Subscription Plans for Linear Algebra Notes -->
+    <section id="plans">
+        <div class="plan">
+            <h2>1 Month Plan</h2>
+            <p>Access to Linear Algebra notes for 1 month.</p>
+            <button onclick="subscribe('1 Month')">Subscribe for $10</button>
+        </div>
+        <div class="plan">
+            <h2>2 Month Plan</h2>
+            <p>Access to Linear Algebra notes for 2 months.</p>
+            <button onclick="subscribe('2 Month')">Subscribe for $18</button>
+        </div>
+        <div class="plan">
+            <h2>3 Month Plan</h2>
+            <p>Access to Linear Algebra notes for 3 months.</p>
+            <button onclick="subscribe('3 Month')">Subscribe for $25</button>
+        </div>
     </section>
 
+    <!-- Footer Section -->
     <footer>
         <p>&copy; 2024 Your Study Notes</p>
     </footer>
 
-    <script src="common.js"></script>
+    <script src="common.js"></script> <!-- Common JS for subscription functionality -->
 </body>
 </html>
