@@ -1,10 +1,23 @@
-/* Styles specific to subscription page */
+/* Basic styling for subscription page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
 #plans {
     display: flex;
     justify-content: center;
     gap: 20px;
     margin-top: 50px;
-    flex-wrap: wrap;
 }
 
 .plan {
@@ -30,4 +43,14 @@ button {
 
 button:hover {
     background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
