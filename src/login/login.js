@@ -11,7 +11,7 @@ function loginUser(event) {
         // Store login status in localStorage
         localStorage.setItem("loggedIn", true);
         localStorage.setItem("username", username);
-        window.location.href = "subscription/subscriptions.html"; // Redirect to the subscription page
+        window.location.href = "subscription/subscription.html"; // Redirect to the subscription page
     } else {
         alert("Invalid username or password.");
     }
